@@ -1,0 +1,730 @@
+TautoTest
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Release-iphoneos/autoTest.app/ResourceRules.plist
+cProcessPCH /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-egbmjmfxnbggyjgwtlsnwfmtooxt/autoTest-Prefix.pch.pch autoTest/autoTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-ebqbhibclaxltvcwlpncyolfrycl/autoTest-Prefix.pch.pch autoTest/autoTest-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-cowtglcvzzfkuwdszovpyrlgdtzs/autoTest-Prefix.pch.pch autoTest/autoTest-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHViewController.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHAppDelegate.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/main.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHViewController.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHAppDelegate.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/main.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHViewController.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHAppDelegate.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/main.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest normal armv7
+cLd /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest normal armv7s
+cLd /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest normal arm64
+cCreateUniversalBinary /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/autoTest normal armv7\ armv7s\ arm64
+cCopyStringsFile /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/en.lproj/InfoPlist.strings autoTest/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/lifeng/Desktop/mygit/autoTest/autoTest/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app /Users/lifeng/Desktop/mygit/autoTest/autoTest/Images.xcassets
+cProcessInfoPlistFile /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/Info.plist /Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Info.plist
+cGenerateDSYMFile /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app.dSYM /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/autoTest
+cProcessProductPackaging /Users/lifeng/Library/MobileDevice/Provisioning\ Profiles/5C7153CA-1DEF-4F36-B462-39B0DCE9AB25.mobileprovision /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/embedded.mobileprovision
+cTouch /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest.xcent
+cCodeSign /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app
+cValidate /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000528190ED0000000000000110
+t1384222957
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+c00000000526E0BBF0000000000000094
+t1382943679
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+c00000000526E0BBF0000000000000096
+t1382943679
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c00000000526E0BBF000000000000036B
+t1382943679
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526E0BC000000000000001A0
+t1382943680
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000526E0BC200000000004D63C0
+t1382943682
+s5071808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000526E0BC30000000000A92BC0
+t1382943683
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000526E0BCA00000000025A5AC0
+t1382943690
+s39475904
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000526E0C6A0000000000000AC9
+t1382943850
+s2761
+
+N/Users/lifeng/Desktop/mygit/autoTest/autoTest/Base.lproj/Main.storyboard
+c00000000530B0AD20000000000000F91
+t1393232594
+s3985
+
+N/Users/lifeng/Desktop/mygit/autoTest/autoTest/Images.xcassets
+c00000000530AB25C0000000000000088
+t1393209948
+s136
+
+N/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m
+c00000000530AB25C00000000000007D8
+t1393209948
+s2008
+
+N/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m
+c00000000530B10E6000000000000032D
+t1393234150
+s813
+
+N/Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Info.plist
+c00000000530AB25C0000000000000509
+t1393209948
+s1289
+
+N/Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Prefix.pch
+c00000000530AB25C0000000000000158
+t1393209948
+s344
+
+N/Users/lifeng/Desktop/mygit/autoTest/autoTest/en.lproj/InfoPlist.strings
+c00000000530AB25C000000000000002D
+t1393209948
+s45
+
+N/Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m
+c00000000530AB25C0000000000000150
+t1393209948
+s336
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app
+t1393234256
+s340
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app.dSYM
+t2
+s0
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/Base.lproj/Main.storyboardc
+t1393234253
+s170
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/Info.plist
+t1393234256
+s1150
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/PkgInfo
+t1393234256
+s8
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/ResourceRules.plist
+t1393234228
+s150
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/autoTest
+t1393234237
+s203280
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/embedded.mobileprovision
+t1393234256
+s12887
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/en.lproj/InfoPlist.strings
+t1393234237
+s42
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHAppDelegate.o
+t1393234235
+s69604
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHViewController.o
+t1393234235
+s52588
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest
+t1393234237
+s55824
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest.LinkFileList
+c00000000530B11340000000000000177
+t1393234228
+s375
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/main.o
+t1393234235
+s4464
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHAppDelegate.o
+t1393234235
+s65140
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHViewController.o
+t1393234235
+s51776
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest
+t1393234236
+s55472
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest.LinkFileList
+c00000000530B11340000000000000177
+t1393234228
+s375
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/main.o
+t1393234235
+s3780
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHAppDelegate.o
+t1393234235
+s65140
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHViewController.o
+t1393234235
+s51776
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest
+t1393234237
+s55472
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest.LinkFileList
+c00000000530B1134000000000000017A
+t1393234228
+s378
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/main.o
+t1393234235
+s3780
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/assetcatalog_dependencies.txt
+t1393234255
+s223
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/assetcatalog_generated_info.plist
+t1393234255
+s181
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest.xcent
+t1393234256
+s618
+
+N/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/lifeng/Library/MobileDevice/Provisioning Profiles/5C7153CA-1DEF-4F36-B462-39B0DCE9AB25.mobileprovision
+c0000000053056A6D0000000000003257
+t1392863853
+s12887
+
+N/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-cowtglcvzzfkuwdszovpyrlgdtzs/autoTest-Prefix.pch.pch
+t1393234234
+s95900
+
+N/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-ebqbhibclaxltvcwlpncyolfrycl/autoTest-Prefix.pch.pch
+t1393234233
+s80948
+
+N/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-egbmjmfxnbggyjgwtlsnwfmtooxt/autoTest-Prefix.pch.pch
+t1393234233
+s80928
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3430e2b148bbb841^f10d39b448bbb841^---0#1#1#--18"Check dependencies36"DD1DA56B-6C55-4344-A1B5-F91561A4A060-
+
+CCodeSign /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app
+s414927056.253530
+e414927056.985595
+r1
+xCodeSign
+x/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"[1mCodeSign[0m [1mbuild/Release-iphoneos/autoTest.app[0m60"[1mCodeSign[0m [1mbuild/Release-iphoneos/autoTest.app[0m92404bd048bbb841^d253fcd048bbb841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/0000000000000000^1248"[1mCodeSign[0m [1mbuild/Release-iphoneos/autoTest.app[0m    cd /Users/lifeng/Desktop/mygit/autoTest    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    Using code signing identity "iPhone Developer: Feng Lee (MU7VAW8FS3)" and provisioning profile "i-bejoy.*" (5C7153CA-1DEF-4F36-B462-39B0DCE9AB25)    codesign --force --sign 8B7D5B8EE05EDA6B4F83E3B21C8C9963500D1BD9 --resource-rules=/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/ResourceRules.plist --entitlements /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest.xcent /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app36"480E025B-8A30-4B78-8F26-3CFC8955EAB2-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCompileAssetCatalog /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app /Users/lifeng/Desktop/mygit/autoTest/autoTest/Images.xcassets
+s414927053.538190
+e414927055.994177
+r1
+xCompileAssetCatalog
+x/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app
+x/Users/lifeng/Desktop/mygit/autoTest/autoTest/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/Assets.car
+o/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"[1mCompileAssetCatalog[0m build/Release-iphoneos/autoTest.app [1mautoTest/Images.xcassets[0m96"[1mCompileAssetCatalog[0m build/Release-iphoneos/autoTest.app [1mautoTest/Images.xcassets[0m6edd89cd48bbb841^3c83fecf48bbb841^-252"/* com.apple.actool.compilation-results *//Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/Assets.car/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@69"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/Images.xcassets/0000000000000000^1324"[1mCompileAssetCatalog[0m build/Release-iphoneos/autoTest.app [1mautoTest/Images.xcassets[0m    cd /Users/lifeng/Desktop/mygit/autoTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device ipad --compress-pngs --compile /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app /Users/lifeng/Desktop/mygit/autoTest/autoTest/Images.xcassets36"DFF7ABD6-DBFF-46A7-8DF9-BED32B5B4CD3-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHAppDelegate.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414927035.801735
+e414927035.860039
+r1
+xCompileC
+xbuild/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHAppDelegate.o
+x/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m208"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHAppDelegate.o [1mautoTest/ZHAppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler3258cdbb48bbb841^be2ddcbb48bbb841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m0000000000000000^3800"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHAppDelegate.o [1mautoTest/ZHAppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lifeng/Desktop/mygit/autoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-generated-files.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-own-target-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-all-target-headers.hmap -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-project-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources/arm64 -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -include /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-cowtglcvzzfkuwdszovpyrlgdtzs/autoTest-Prefix.pch -MMD -MT dependencies -MF /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHAppDelegate.d --serialize-diagnostics /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHAppDelegate.dia -c /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHAppDelegate.o36"7BE31258-342C-4BA2-883F-FB7AF40058FD-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHViewController.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414927035.741660
+e414927035.801427
+r1
+xCompileC
+xbuild/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHViewController.o
+x/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m214"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHViewController.o [1mautoTest/ZHViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler90f8bdbb48bbb841^e02ccdbb48bbb841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m0000000000000000^3818"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHViewController.o [1mautoTest/ZHViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lifeng/Desktop/mygit/autoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-generated-files.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-own-target-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-all-target-headers.hmap -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-project-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources/arm64 -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -include /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-cowtglcvzzfkuwdszovpyrlgdtzs/autoTest-Prefix.pch -MMD -MT dependencies -MF /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHViewController.d --serialize-diagnostics /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHViewController.dia -c /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHViewController.o36"9D645426-9CB2-4264-9036-6EB889220289-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/main.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414927035.860346
+e414927035.888164
+r1
+xCompileC
+xbuild/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/main.o
+x/Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m190"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/main.o [1mautoTest/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb859dcbb48bbb841^5262e3bb48bbb841^---0#0#1#-19%DVTDocumentLocation2@59"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m0000000000000000^3746"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/main.o [1mautoTest/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lifeng/Desktop/mygit/autoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-generated-files.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-own-target-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-all-target-headers.hmap -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-project-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources/arm64 -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -include /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-cowtglcvzzfkuwdszovpyrlgdtzs/autoTest-Prefix.pch -MMD -MT dependencies -MF /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/main.dia -c /Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/main.o36"5D15F3B4-5001-4AC6-B46C-847AC22736C4-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHAppDelegate.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414927035.463139
+e414927035.555290
+r1
+xCompileC
+xbuild/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHAppDelegate.o
+x/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m208"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHAppDelegate.o [1mautoTest/ZHAppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf8a976bb48bbb841^fe288ebb48bbb841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m0000000000000000^3800"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHAppDelegate.o [1mautoTest/ZHAppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lifeng/Desktop/mygit/autoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-generated-files.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-own-target-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-all-target-headers.hmap -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-project-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources/armv7 -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -include /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-egbmjmfxnbggyjgwtlsnwfmtooxt/autoTest-Prefix.pch -MMD -MT dependencies -MF /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHAppDelegate.d --serialize-diagnostics /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHAppDelegate.dia -c /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHAppDelegate.o36"21F6B766-C6E7-4CBE-ADF4-55342667956E-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHViewController.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414927034.936876
+e414927035.462812
+r1
+xCompileC
+xbuild/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHViewController.o
+x/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m214"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHViewController.o [1mautoTest/ZHViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler91f2efba48bbb841^247d76bb48bbb841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m0000000000000000^3818"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHViewController.o [1mautoTest/ZHViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lifeng/Desktop/mygit/autoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-generated-files.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-own-target-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-all-target-headers.hmap -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-project-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources/armv7 -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -include /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-egbmjmfxnbggyjgwtlsnwfmtooxt/autoTest-Prefix.pch -MMD -MT dependencies -MF /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHViewController.d --serialize-diagnostics /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHViewController.dia -c /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHViewController.o36"479D3FAC-71C4-4009-AA60-88D1E94D7AE8-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/main.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414927035.555617
+e414927035.588668
+r1
+xCompileC
+xbuild/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/main.o
+x/Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m190"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/main.o [1mautoTest/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler43578ebb48bbb841^fab496bb48bbb841^---0#0#1#-19%DVTDocumentLocation2@59"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m0000000000000000^3746"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/main.o [1mautoTest/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lifeng/Desktop/mygit/autoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-generated-files.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-own-target-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-all-target-headers.hmap -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-project-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources/armv7 -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -include /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-egbmjmfxnbggyjgwtlsnwfmtooxt/autoTest-Prefix.pch -MMD -MT dependencies -MF /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/main.dia -c /Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/main.o36"B5F455C5-293F-44A4-B379-928779EA1AD1-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHAppDelegate.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414927035.649895
+e414927035.712092
+r1
+xCompileC
+xbuild/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHAppDelegate.o
+x/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m210"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHAppDelegate.o [1mautoTest/ZHAppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilercc7da6bb48bbb841^5e4db6bb48bbb841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m0000000000000000^3807"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHAppDelegate.o [1mautoTest/ZHAppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lifeng/Desktop/mygit/autoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-generated-files.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-own-target-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-all-target-headers.hmap -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-project-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources/armv7s -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -include /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-ebqbhibclaxltvcwlpncyolfrycl/autoTest-Prefix.pch -MMD -MT dependencies -MF /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHAppDelegate.d --serialize-diagnostics /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHAppDelegate.dia -c /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.m -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHAppDelegate.o36"B33676B8-A069-42C8-A74A-C635F1F000FB-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHViewController.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414927035.589030
+e414927035.649614
+r1
+xCompileC
+xbuild/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHViewController.o
+x/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m216"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHViewController.o [1mautoTest/ZHViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilera7e696bb48bbb841^be4ea6bb48bbb841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m0000000000000000^3825"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHViewController.o [1mautoTest/ZHViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lifeng/Desktop/mygit/autoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-generated-files.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-own-target-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-all-target-headers.hmap -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-project-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources/armv7s -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -include /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-ebqbhibclaxltvcwlpncyolfrycl/autoTest-Prefix.pch -MMD -MT dependencies -MF /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHViewController.d --serialize-diagnostics /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHViewController.dia -c /Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHViewController.m -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHViewController.o36"BD6EE0CE-1305-4CE4-8ADE-A080C1637641-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCompileC build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/main.o /Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414927035.712421
+e414927035.741330
+r1
+xCompileC
+xbuild/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/main.o
+x/Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/ZHAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m192"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/main.o [1mautoTest/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler137db6bb48bbb841^f7c9bdbb48bbb841^---0#0#1#-19%DVTDocumentLocation2@59"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m0000000000000000^3753"[1mCompileC[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/main.o [1mautoTest/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lifeng/Desktop/mygit/autoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-generated-files.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-own-target-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-all-target-headers.hmap -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-project-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources/armv7s -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -include /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-ebqbhibclaxltvcwlpncyolfrycl/autoTest-Prefix.pch -MMD -MT dependencies -MF /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/main.dia -c /Users/lifeng/Desktop/mygit/autoTest/autoTest/main.m -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/main.o36"65392C9B-0A7E-47CE-A60A-8642A73F03B9-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCompileStoryboard /Users/lifeng/Desktop/mygit/autoTest/autoTest/Base.lproj/Main.storyboard
+s414927037.421360
+e414927053.537931
+r1
+xCompileStoryboard
+x/Users/lifeng/Desktop/mygit/autoTest/autoTest/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"[1mCompileStoryboard[0m [1mautoTest/Base.lproj/Main.storyboard[0m69"[1mCompileStoryboard[0m [1mautoTest/Base.lproj/Main.storyboard[0mbff36bbd48bbb841^39b789cd48bbb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/Base.lproj/Main.storyboard0000000000000000^1085"[1mCompileStoryboard[0m [1mautoTest/Base.lproj/Main.storyboard[0m    cd /Users/lifeng/Desktop/mygit/autoTest    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/Base.lproj/Main.storyboardc /Users/lifeng/Desktop/mygit/autoTest/autoTest/Base.lproj/Main.storyboard36"5E8FECD5-9449-4ED1-93C2-25123C379E69-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCopyStringsFile /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/en.lproj/InfoPlist.strings autoTest/en.lproj/InfoPlist.strings
+s414927037.394170
+e414927037.421080
+r1
+xCopyStringsFile
+x/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/en.lproj/InfoPlist.strings
+xautoTest/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy autoTest/en.lproj/InfoPlist.strings122"[1mCopyStringsFile[0m build/Release-iphoneos/autoTest.app/en.lproj/InfoPlist.strings autoTest/en.lproj/InfoPlist.stringsdffe64bd48bbb841^fbce6bbd48bbb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/en.lproj/InfoPlist.strings0000000000000000^865"[1mCopyStringsFile[0m build/Release-iphoneos/autoTest.app/en.lproj/InfoPlist.strings autoTest/en.lproj/InfoPlist.strings    cd /Users/lifeng/Desktop/mygit/autoTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/en.lproj -- autoTest/en.lproj/InfoPlist.strings36"D05D4AB5-3DEE-46A6-9522-A637FF2C51C0-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Release-iphoneos/autoTest.app/ResourceRules.plist
+s414927028.256960
+e414927028.258425
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/autoTest.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Release-iphoneos/autoTest.app/ResourceRules.plist196"[1mCpResource[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Release-iphoneos/autoTest.app/ResourceRules.plist16de41b448bbb841^bb2842b448bbb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/ResourceRules.plist0034d450deffdf42^1161"[1mCpResource[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Release-iphoneos/autoTest.app/ResourceRules.plist    cd /Users/lifeng/Desktop/mygit/autoTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app36"A64E4923-462E-439F-ADDD-BCFB326832E6-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CCreateUniversalBinary /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/autoTest normal armv7\ armv7s\ arm64
+s414927037.365604
+e414927037.393691
+r1
+xCreateUniversalBinary
+x/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/autoTest
+xnormal
+xarmv7 armv7s arm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Create universal binary /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/autoTest110"[1mCreateUniversalBinary[0m [1mbuild/Release-iphoneos/autoTest.app/autoTest[0m normal armv7\ armv7s\ arm640cb25dbd48bbb841^c9c964bd48bbb841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/autoTest0034d450deffdf42^1110"[1mCreateUniversalBinary[0m [1mbuild/Release-iphoneos/autoTest.app/autoTest[0m normal armv7\ armv7s\ arm64    cd /Users/lifeng/Desktop/mygit/autoTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    lipo -create /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest -output /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/autoTest36"1B98F139-F987-422D-BC99-C323F25E49E8-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CGenerateDSYMFile /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app.dSYM /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/autoTest
+s414927056.013210
+e414927056.202230
+r1
+xGenerateDSYMFile
+x/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app.dSYM
+x/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/autoTest
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Generate /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app.dSYM118"[1mGenerateDSYMFile[0m [1mbuild/Release-iphoneos/autoTest.app.dSYM[0m build/Release-iphoneos/autoTest.app/autoTesta87103d048bbb841^54c633d048bbb841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app.dSYM0034d450deffdf42^913"[1mGenerateDSYMFile[0m [1mbuild/Release-iphoneos/autoTest.app.dSYM[0m build/Release-iphoneos/autoTest.app/autoTest    cd /Users/lifeng/Desktop/mygit/autoTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/autoTest -o /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app.dSYM36"D13EA1B2-EAE0-4F1A-8FEE-ACCC7D23D29F-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CLd /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest normal arm64
+s414927037.093580
+e414927037.364793
+r1
+xLd
+x/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest
+xnormal
+xarm64
+d/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest.LinkFileList
+d/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHViewController.o
+d/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/ZHAppDelegate.o
+d/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest106"[1mLd[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest normal arm64d50918bd48bbb841^dc635dbd48bbb841^---0#0#1#--1599"[1mLd[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest normal arm64    cd /Users/lifeng/Desktop/mygit/autoTest    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -filelist /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest_dependency_info.dat -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/arm64/autoTest36"A7FA544D-E4E4-4BF6-9D83-69779841EF55-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CLd /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest normal armv7
+s414927035.889004
+e414927036.782065
+r1
+xLd
+x/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest
+xnormal
+xarmv7
+d/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest.LinkFileList
+d/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHViewController.o
+d/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/ZHAppDelegate.o
+d/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest106"[1mLd[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest normal armv719ade3bb48bbb841^4436c8bc48bbb841^---0#0#1#--1599"[1mLd[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest normal armv7    cd /Users/lifeng/Desktop/mygit/autoTest    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -filelist /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest_dependency_info.dat -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7/autoTest36"437624F4-348C-47D2-BDD8-1EE84C7F9FE2-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CLd /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest normal armv7s
+s414927036.782638
+e414927037.093113
+r1
+xLd
+x/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest
+xnormal
+xarmv7s
+d/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest.LinkFileList
+d/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHViewController.o
+d/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/ZHAppDelegate.o
+d/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest108"[1mLd[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest normal armv7se771c8bc48bbb841^1bd717bd48bbb841^---0#0#1#--1605"[1mLd[0m build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest normal armv7s    cd /Users/lifeng/Desktop/mygit/autoTest    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos -filelist /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest_dependency_info.dat -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/Objects-normal/armv7s/autoTest36"771236AF-4BB4-4DE3-99E5-5C0C8371D784-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CProcessInfoPlistFile /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/Info.plist /Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Info.plist
+s414927055.994725
+e414927056.012778
+r1
+xProcessInfoPlistFile
+x/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/Info.plist
+x/Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Process /Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Info.plist112"[1mProcessInfoPlistFile[0m build/Release-iphoneos/autoTest.app/Info.plist [1mautoTest/autoTest-Info.plist[0me9b8fecf48bbb841^5e4803d048bbb841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Info.plist0000000000000000^1233"[1mProcessInfoPlistFile[0m build/Release-iphoneos/autoTest.app/Info.plist [1mautoTest/autoTest-Info.plist[0m    cd /Users/lifeng/Desktop/mygit/autoTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    builtin-infoPlistUtility /Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Info.plist -genpkginfo /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/ResourceRules.plist -additionalcontentfile /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/assetcatalog_generated_info.plist -o /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/Info.plist36"E348AF35-3654-4C83-861D-7A618C84A620-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CProcessPCH /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-cowtglcvzzfkuwdszovpyrlgdtzs/autoTest-Prefix.pch.pch autoTest/autoTest-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414927033.083393
+e414927034.936122
+r1
+xProcessPCH
+x/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-cowtglcvzzfkuwdszovpyrlgdtzs/autoTest-Prefix.pch.pch
+xautoTest/autoTest-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile autoTest/autoTest-Prefix.pch303"[1mProcessPCH[0m /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-cowtglcvzzfkuwdszovpyrlgdtzs/autoTest-Prefix.pch.pch autoTest/autoTest-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler427715b948bbb841^22a7efba48bbb841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Prefix.pch0000000000000000^3890"[1mProcessPCH[0m /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-cowtglcvzzfkuwdszovpyrlgdtzs/autoTest-Prefix.pch.pch autoTest/autoTest-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lifeng/Desktop/mygit/autoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-generated-files.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-own-target-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-all-target-headers.hmap -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-project-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources/arm64 -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos --serialize-diagnostics /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-cowtglcvzzfkuwdszovpyrlgdtzs/autoTest-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-cowtglcvzzfkuwdszovpyrlgdtzs/autoTest-Prefix.pch.d -c /Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Prefix.pch -o /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-cowtglcvzzfkuwdszovpyrlgdtzs/autoTest-Prefix.pch.pch36"48FB1155-7D12-47EA-BDB2-DBCBC669CBA7-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CProcessPCH /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-ebqbhibclaxltvcwlpncyolfrycl/autoTest-Prefix.pch.pch autoTest/autoTest-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414927028.285651
+e414927033.082955
+r1
+xProcessPCH
+x/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-ebqbhibclaxltvcwlpncyolfrycl/autoTest-Prefix.pch.pch
+xautoTest/autoTest-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile autoTest/autoTest-Prefix.pch304"[1mProcessPCH[0m /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-ebqbhibclaxltvcwlpncyolfrycl/autoTest-Prefix.pch.pch autoTest/autoTest-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler193b49b448bbb841^043c15b948bbb841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Prefix.pch0000000000000000^3893"[1mProcessPCH[0m /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-ebqbhibclaxltvcwlpncyolfrycl/autoTest-Prefix.pch.pch autoTest/autoTest-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lifeng/Desktop/mygit/autoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-generated-files.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-own-target-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-all-target-headers.hmap -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-project-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources/armv7s -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos --serialize-diagnostics /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-ebqbhibclaxltvcwlpncyolfrycl/autoTest-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-ebqbhibclaxltvcwlpncyolfrycl/autoTest-Prefix.pch.d -c /Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Prefix.pch -o /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-ebqbhibclaxltvcwlpncyolfrycl/autoTest-Prefix.pch.pch36"2C2F77AC-DF9B-4B7D-A4D4-23D0DDC75A7A-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CProcessPCH /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-egbmjmfxnbggyjgwtlsnwfmtooxt/autoTest-Prefix.pch.pch autoTest/autoTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s414927028.285364
+e414927033.082960
+r1
+xProcessPCH
+x/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-egbmjmfxnbggyjgwtlsnwfmtooxt/autoTest-Prefix.pch.pch
+xautoTest/autoTest-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile autoTest/autoTest-Prefix.pch303"[1mProcessPCH[0m /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-egbmjmfxnbggyjgwtlsnwfmtooxt/autoTest-Prefix.pch.pch autoTest/autoTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler583849b448bbb841^316015b948bbb841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Prefix.pch0000000000000000^3890"[1mProcessPCH[0m /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-egbmjmfxnbggyjgwtlsnwfmtooxt/autoTest-Prefix.pch.pch autoTest/autoTest-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lifeng/Desktop/mygit/autoTest    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-generated-files.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-own-target-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-all-target-headers.hmap -iquote /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest-project-headers.hmap -I/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources/armv7 -I/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/DerivedSources -F/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos --serialize-diagnostics /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-egbmjmfxnbggyjgwtlsnwfmtooxt/autoTest-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-egbmjmfxnbggyjgwtlsnwfmtooxt/autoTest-Prefix.pch.d -c /Users/lifeng/Desktop/mygit/autoTest/autoTest/autoTest-Prefix.pch -o /var/folders/l0/cyqbtmfj0m3d5v4rjqcthzwr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/autoTest-Prefix-egbmjmfxnbggyjgwtlsnwfmtooxt/autoTest-Prefix.pch.pch36"406C872B-6FD1-4F49-9648-36CEC23A4E21-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest.xcent
+s414927056.245428
+e414927056.253145
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+x/Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection228"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/autoTest.build/Release-iphoneos/autoTest.build/autoTest.xcent[0m228"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/autoTest.build/Release-iphoneos/autoTest.build/autoTest.xcent[0mf3e83ed048bbb841^f2cf40d048bbb841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest.xcent0034d450deffdf42^1051"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/autoTest.build/Release-iphoneos/autoTest.build/autoTest.xcent[0m    cd /Users/lifeng/Desktop/mygit/autoTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/lifeng/Desktop/mygit/autoTest/build/autoTest.build/Release-iphoneos/autoTest.build/autoTest.xcent36"45115DEB-D334-4EB5-A589-5510E8139BF3-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CProcessProductPackaging /Users/lifeng/Library/MobileDevice/Provisioning\ Profiles/5C7153CA-1DEF-4F36-B462-39B0DCE9AB25.mobileprovision /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/embedded.mobileprovision
+s414927056.202637
+e414927056.244657
+r1
+xProcessProductPackaging
+x/Users/lifeng/Library/MobileDevice/Provisioning Profiles/5C7153CA-1DEF-4F36-B462-39B0DCE9AB25.mobileprovision
+x/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection211"[1mProcessProductPackaging[0m /Users/lifeng/Library/MobileDevice/Provisioning\ Profiles/5C7153CA-1DEF-4F36-B462-39B0DCE9AB25.mobileprovision [1mbuild/Release-iphoneos/autoTest.app/embedded.mobileprovision[0m211"[1mProcessProductPackaging[0m /Users/lifeng/Library/MobileDevice/Provisioning\ Profiles/5C7153CA-1DEF-4F36-B462-39B0DCE9AB25.mobileprovision [1mbuild/Release-iphoneos/autoTest.app/embedded.mobileprovision[0mfdf433d048bbb841^05a33ed048bbb841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/embedded.mobileprovision0034d450deffdf42^991"[1mProcessProductPackaging[0m /Users/lifeng/Library/MobileDevice/Provisioning\ Profiles/5C7153CA-1DEF-4F36-B462-39B0DCE9AB25.mobileprovision [1mbuild/Release-iphoneos/autoTest.app/embedded.mobileprovision[0m    cd /Users/lifeng/Desktop/mygit/autoTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    builtin-productPackagingUtility /Users/lifeng/Library/MobileDevice/Provisioning\ Profiles/5C7153CA-1DEF-4F36-B462-39B0DCE9AB25.mobileprovision -o /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/embedded.mobileprovision36"173042E0-CFF0-4DCF-A6DD-AB9344F26617-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
+CTouch /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app
+r0
+
+CValidate /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app
+s414927056.985983
+e414927057.531598
+r1
+xValidate
+x/Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"[1mValidate[0m [1mbuild/Release-iphoneos/autoTest.app[0m60"[1mValidate[0m [1mbuild/Release-iphoneos/autoTest.app[0me17efcd048bbb841^721888d148bbb841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app/0000000000000000^828"[1mValidate[0m [1mbuild/Release-iphoneos/autoTest.app[0m    cd /Users/lifeng/Desktop/mygit/autoTest    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lifeng/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lifeng/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/lifeng/Desktop/mygit/autoTest/build/Release-iphoneos/autoTest.app36"0EA017F7-1276-4913-92C1-2262D7CB034B-
+b37913344-DA4D-4D4B-9705-0AB1FC792DBA
+
